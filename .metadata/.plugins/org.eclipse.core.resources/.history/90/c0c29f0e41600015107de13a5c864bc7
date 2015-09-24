@@ -1,0 +1,23 @@
+package com.example.listviewbyvolley.app;
+
+import com.android.volley.RequestQueue;
+import com.android.volley.toolbox.ImageLoader;
+
+import android.app.Application;
+
+public class AppController extends Application {
+
+	public static final String TAG = Application.class.getSimpleName();
+
+	private RequestQueue mRequestQueue;
+	private ImageLoader mImageLoader;
+
+	private static AppController mInstance;
+
+	@Override
+	public void onCreate() {
+		// TODO Auto-generated method stub
+		super.onCreate();
+		mInstance = this;
+	}
+}

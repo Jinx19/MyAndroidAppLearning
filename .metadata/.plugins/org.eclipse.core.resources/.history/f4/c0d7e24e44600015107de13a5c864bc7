@@ -1,0 +1,14 @@
+package com.example.listviewbyvolley.model;
+
+import java.util.ArrayList;
+
+public class Movie {
+	private String title, thumbnailUrl;
+	private int year;
+	private double rating;
+	private ArrayList<String> genre;
+
+	public Movie() {
+
+	}
+}

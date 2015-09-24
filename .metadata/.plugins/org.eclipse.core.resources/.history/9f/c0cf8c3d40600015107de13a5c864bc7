@@ -1,0 +1,24 @@
+package com.example.listviewbyvolley.util;
+
+import android.graphics.Bitmap;
+import android.support.v4.util.LruCache;
+
+public class LruBitmapCache extends LruCache<String, Bitmap> {
+
+	public static int getDefaultLruCacheSize() {
+		final int maxMemory = (int) (Runtime.getRuntime().maxMemory() / 1024);
+		final int cacheSize = maxMemory / 8;
+
+		return cacheSize;
+	}
+
+	public LruBitmapCache() {
+		this(getDefaultLruCacheSize());
+	}
+
+	public LruBitmapCache(int sizeInKiloBytes) {
+		// TODO Auto-generated constructor stub
+		super(sizeInKiloBytes);
+	}
+
+}

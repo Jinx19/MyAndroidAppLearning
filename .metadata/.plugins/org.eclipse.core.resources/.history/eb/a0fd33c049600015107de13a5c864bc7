@@ -1,0 +1,37 @@
+package com.example.listviewbyvolley;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.example.listviewbyvolley.adapter.CustomListAdapter;
+import com.example.listviewbyvolley.model.Movie;
+
+import android.app.Activity;
+import android.app.ProgressDialog;
+import android.os.Bundle;
+import android.widget.ListView;
+
+public class MainActivity extends Activity {
+
+	private static final String TAG = MainActivity.class.getSimpleName();
+
+	private static final String url = "http://api.androidhive.info/json/movies.json";
+
+	private ProgressDialog pDialog;
+	private List<Movie> movieList = new ArrayList<Movie>();
+	private ListView listView;
+	private CustomListAdapter adapter;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+
+		listView = (ListView) findViewById(R.id.list);
+		adapter = new CustomListAdapter(this, movieList);
+		listView.setAdapter(adapter);
+
+		pDialog = new ProgressDialog(this);
+	}
+
+}

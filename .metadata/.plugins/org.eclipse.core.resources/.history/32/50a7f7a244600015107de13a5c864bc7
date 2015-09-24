@@ -1,0 +1,5 @@
+package com.example.listviewbyvolley.adapter;
+
+public class CustomListAdapter {
+
+}

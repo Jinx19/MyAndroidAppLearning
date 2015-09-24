@@ -1,0 +1,28 @@
+package com.rimo.slidingmenu.model;
+
+public class NavDrawerItem {
+	private String title;
+	private int icon;
+	private String count = "0";
+
+	private boolean isCounterVisible = false;
+
+	public NavDrawerItem() {
+
+	}
+
+	public NavDrawerItem(String title, int icon) {
+		this.title = title;
+		this.icon = icon;
+
+	}
+
+	public NavDrawerItem(String title, int icon, boolean isCounterVisible,
+			int count) {
+		this.title = title;
+		this.icon = icon;
+		this.isCounterVisible = isCounterVisible;
+		this.count = count;
+
+	}
+}
