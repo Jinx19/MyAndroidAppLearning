@@ -1,12 +1,4 @@
 INDEX VERSION 1.126+D:\Github\MyAndroidAppLearning\.metadata\.plugins\org.eclipse.jdt.core
-3472085941.index
-1336310345.index
-2195383823.index
-1237722046.index
-2537225418.index
-2034235591.index
-551002077.index
-3809898231.index
-68589961.index
-2863384388.index
 938709367.index
+276026915.index
+2537225418.index

@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<list key="installedFeatures">
-		<item value="com.android.ide.eclipse.adt.feature:23.0.4.1468518"/>
+		<item value="com.android.ide.eclipse.adt.feature:23.0.7.2120684"/>
 		<item value="com.android.ide.eclipse.adt.package.feature:23.0.2.1259578"/>
-		<item value="com.android.ide.eclipse.ddms.feature:23.0.4.1468518"/>
-		<item value="com.android.ide.eclipse.hierarchyviewer.feature:23.0.4.1468518"/>
-		<item value="com.android.ide.eclipse.traceview.feature:23.0.4.1468518"/>
+		<item value="com.android.ide.eclipse.ddms.feature:23.0.7.2120684"/>
+		<item value="com.android.ide.eclipse.hierarchyviewer.feature:23.0.7.2120684"/>
+		<item value="com.android.ide.eclipse.traceview.feature:23.0.7.2120684"/>
 		<item value="com.collabnet.subversion.merge.feature:2.2.4"/>
 		<item value="com.sun.jna:3.2.7"/>
-		<item value="org.eclipse.cdt.gdb:7.0.0.201202111925"/>
-		<item value="org.eclipse.cdt:8.0.2.201202111925"/>
+		<item value="org.eclipse.cdt.gdb:8.8.0.201509131935"/>
+		<item value="org.eclipse.cdt.sdk:8.8.0.201509131935"/>
+		<item value="org.eclipse.cdt:8.8.0.201509131935"/>
 		<item value="org.eclipse.egit.import:2.2.0.201212191850-r"/>
 		<item value="org.eclipse.egit:2.2.0.201212191850-r"/>
 		<item value="org.eclipse.emf.common:2.9.1.v20130827-0309"/>
@@ -33,6 +34,14 @@
 		<item value="390" key="DIALOG_HEIGHT"/>
 		<item value="754" key="DIALOG_X_ORIGIN"/>
 		<item value="280" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item value="612" key="DIALOG_X_ORIGIN"/>
+		<item value="336" key="DIALOG_Y_ORIGIN"/>
 	</section>
 	<section name="org.eclipse.ui.dialogs.FilteredResourcesSelectionDialog">
 		<item value="true" key="ShowStatusLine"/>
