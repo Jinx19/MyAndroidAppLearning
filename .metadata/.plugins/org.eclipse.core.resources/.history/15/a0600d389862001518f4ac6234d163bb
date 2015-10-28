@@ -1,7 +1,0 @@
-package com.rimo.slidingmenu.adapter;
-
-import android.widget.BaseAdapter;
-
-public class NavDrawerListAdapter extends BaseAdapter {
-
-}

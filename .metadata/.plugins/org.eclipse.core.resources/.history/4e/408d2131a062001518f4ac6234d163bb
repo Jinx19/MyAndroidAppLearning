@@ -1,8 +1,0 @@
-package com.rimo.slidingmenu.fragment;
-
-import android.app.Fragment;
-
-public class HomeFragment extends Fragment {
-	public HomeFragment() {
-	};
-}

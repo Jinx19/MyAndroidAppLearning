@@ -1,7 +1,0 @@
-package com.example.listviewbyvolley.util;
-
-import android.support.v4.util.LruCache;
-
-public class LruBitmapCache extends LruCache<String, Bitmap> {
-
-}

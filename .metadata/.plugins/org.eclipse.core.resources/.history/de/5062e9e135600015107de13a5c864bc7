@@ -1,7 +1,0 @@
-package com.example.myserviceapp;
-
-import android.app.Service;
-
-public class MyService extends Service {
-
-}

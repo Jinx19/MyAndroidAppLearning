@@ -1,7 +1,0 @@
-package com.example.listviewbyvolley.adapter;
-
-import android.widget.BaseAdapter;
-
-public class CustomListAdapter extends BaseAdapter {
-
-}

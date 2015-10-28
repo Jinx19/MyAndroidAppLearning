@@ -1,7 +1,0 @@
-package com.example.myserviceapp;
-
-import android.content.BroadcastReceiver;
-
-public class ToHourAlarmReceiver extends BroadcastReceiver {
-
-}

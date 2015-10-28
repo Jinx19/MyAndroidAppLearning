@@ -1,5 +1,0 @@
-package com.example.listviewbyvolley.model;
-
-public class Movie {
-	private String title, thumbnailUrl;
-}
